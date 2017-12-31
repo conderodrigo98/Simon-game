@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+<div class="container-fluid">
+  
+  <h1>Simon Game</h1>
+  <div class="row ">
+    <div class="col-sm-6">
+      <button id="cell0" type="button" class="btn cell"></button>
+    </div>
+    <div class="col-sm-6">
+      <button id="cell1" type="button" class="btn cell"></button>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-sm-6">
+      <button id="cell2" type="button" class="btn cell"></button>
+    </div>
+    <div class="col-sm-6">
+      <button id="cell3" type="button" class="btn cell"></button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <button  type="button" class="btn" id="start">Start</button>
+    </div>
+    <div class="col-sm-6">
+      <button type="button" class="btn" id="strictMode">Strict Mode: <span id="strict">OFF</span></button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <button type="button" class="btn" id="reset">Reset</button>
+    </div>
+    <div class="col-sm-6">
+      <h2>Count: <span id="count">-</span></h2>
+    </div>
+  </div>
+  
+  <!-- Winning sign -->
+  <div class="modal fade" id="winningSign" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h4>YOU HAVE WON!</h4>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Play again</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/umd/popper.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

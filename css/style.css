@@ -1,0 +1,60 @@
+body{
+  transition:0.75s;
+}
+
+h1{
+  text-align:center;
+  margin-bottom:2%;
+  font-family: 'Bungee';
+  font-size:6em;
+}
+
+.cell{
+  width:100%;
+  padding-bottom:40%;
+  margin-bottom:5%;
+  transition:0.25s;
+}
+
+.row{
+  margin:0% 10% 0% 10%;
+}
+
+#start,#reset,#strictMode{
+  width:100%;
+  margin-bottom:2%;
+  background-color:#555C5C;
+}
+
+h2,.btn{
+  text-align:center;
+  font-family:"Bungee";
+  font-size:1.5em;
+}
+
+#cell0{
+  background-color:#FFA8A8;
+}
+
+#cell1{
+  background-color:#FFCFA8;
+}
+
+#cell2{
+  background-color:#6BA3A3;
+}
+
+#cell3{
+  background-color:#8AD18A;
+}
+
+.btn:hover{
+  cursor:pointer;
+}
+
+h4{
+  text-align:center;
+  font-family:"Bungee";
+  font-size:5em;
+  margin:25% 0% 25% 0%;
+}
